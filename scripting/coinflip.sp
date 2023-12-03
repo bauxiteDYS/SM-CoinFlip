@@ -6,7 +6,7 @@ public Plugin myinfo = {
 	name = "Flip a Coin",
 	description = "Use !coin to flip a coin",
 	author = "bauxite",
-	version = "0.1.3",
+	version = "0.1.5",
 	url = "https://github.com/bauxiteDYS/SM-CoinFlip",
 };
 
@@ -41,7 +41,7 @@ public Action Cmd_Coin(int client, int args)
 	int iCoin;
 	int iNumFlips;
 	
-	iNumFlips = GetRandomInt(1, 7);
+	iNumFlips = GetRandomInt(1, 10);
 	
 	for (int iFlip = 1; iFlip <= iNumFlips; iFlip++)
 	{
